@@ -12,14 +12,14 @@ class WeatherView {
     this.#parentElement.insertAdjacentHTML("afterbegin", markup);
   }
 
-  getValue() {
+  #getValue() {
     return document.querySelector(".input").value.trim();
   }
 
   handleTextInput(callback) {
     document.querySelector(".input").addEventListener("keydown", function (e) {
       if (e.key === "Enter") {
-        const value = this.value.trim();
+        const value = getValue();
         callback(value);
       }
     });

@@ -598,13 +598,16 @@ async function controlWeather(value) {
     // Hava durumu render etme
     (0, _viewJsDefault.default).renderWeather(_modelJs.state);
 }
+function init() {
+    (0, _viewJsDefault.default).handleTextInput(controlWeather);
+}
 // Enter tuşuna basıldığında event listener
 // document.querySelector(".input").addEventListener("keydown", function (event) {
 //   if (event.key === "Enter") {
 //     controlWeather(WeatherView.getValue());
 //   }
 // });
-(0, _viewJsDefault.default).handleTextInput(controlWeather);
+init();
 
 },{"core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","./model.js":"dEDha","./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"49tUX":[function(require,module,exports) {
 "use strict";
