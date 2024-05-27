@@ -599,9 +599,12 @@ async function controlWeather(value) {
     (0, _viewJsDefault.default).renderWeather(_modelJs.state);
 }
 // Enter tuşuna basıldığında event listener
-document.querySelector(".input").addEventListener("keydown", function(event) {
-    if (event.key === "Enter") controlWeather((0, _viewJsDefault.default).getValue());
-});
+// document.querySelector(".input").addEventListener("keydown", function (event) {
+//   if (event.key === "Enter") {
+//     controlWeather(WeatherView.getValue());
+//   }
+// });
+(0, _viewJsDefault.default).handleTextInput(controlWeather);
 
 },{"core-js/modules/web.immediate.js":"49tUX","regenerator-runtime/runtime":"dXNgZ","./model.js":"dEDha","./view.js":"ai2uB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"49tUX":[function(require,module,exports) {
 "use strict";
@@ -2516,6 +2519,14 @@ class WeatherView {
     }
     getValue() {
         return document.querySelector(".input").value.trim();
+    }
+    handleTextInput(callback) {
+        document.querySelector(".input").addEventListener("keydown", function(e) {
+            if (e.key === "Enter") {
+                const value = this.value.trim();
+                callback(value);
+            }
+        });
     }
     #clearInput() {
         return document.querySelector(".input").value = "";

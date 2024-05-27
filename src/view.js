@@ -16,6 +16,15 @@ class WeatherView {
     return document.querySelector(".input").value.trim();
   }
 
+  handleTextInput(callback) {
+    document.querySelector(".input").addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        const value = this.value.trim();
+        callback(value);
+      }
+    });
+  }
+
   #clearInput() {
     return (document.querySelector(".input").value = "");
   }

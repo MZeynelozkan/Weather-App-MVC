@@ -16,8 +16,10 @@ async function controlWeather(value) {
 }
 
 // Enter tuşuna basıldığında event listener
-document.querySelector(".input").addEventListener("keydown", function (event) {
-  if (event.key === "Enter") {
-    controlWeather(WeatherView.getValue());
-  }
-});
+// document.querySelector(".input").addEventListener("keydown", function (event) {
+//   if (event.key === "Enter") {
+//     controlWeather(WeatherView.getValue());
+//   }
+// });
+
+WeatherView.handleTextInput(controlWeather);
