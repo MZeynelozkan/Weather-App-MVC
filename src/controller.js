@@ -1,4 +1,5 @@
 import "core-js/stable";
+
 import "regenerator-runtime/runtime";
 import * as model from "./model.js";
 import WeatherView from "./view.js";
