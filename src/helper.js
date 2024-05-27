@@ -1,7 +1,4 @@
-import { config } from "dotenv";
-config();
-
-const API_KEY = process.env.API_KEY;
+const API_KEY = "15e922b5a372911afa02459b6bf08702";
 
 export async function fetchDatas(value) {
   try {
