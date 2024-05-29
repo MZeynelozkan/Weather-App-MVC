@@ -10,11 +10,10 @@
 80C:\Users\PC\Desktop\WeatherMVC\node_modules\core-js\actual\array\virtual\join.js133611068353131239 0
 94C:\Users\PC\Desktop\WeatherMVC\node_modules\caniuse-lite\data\features\css-element-function.js133611037234088169 0
 64C:\Users\PC\Desktop\WeatherMVC\node_modules\htmlnano\LICENSE.txt133611037232729394 0
-53C:\Users\PC\Desktop\WeatherMVC\dist\index.bafbf13d.js133613037607205297 0
 82C:\Users\PC\Desktop\WeatherMVC\node_modules\@swc\helpers\cjs\_set_prototype_of.cjs133611037231554384 0
 62C:\Users\PC\Desktop\WeatherMVC\node_modules\pbkdf2\lib\sync.js133612902193536907 0
 80C:\Users\PC\Desktop\WeatherMVC\node_modules\core-js\features\math\sum-precise.js133611068360311666 0
-42C:\Users\PC\Desktop\WeatherMVC\src\view.js133613036540528340 0
+42C:\Users\PC\Desktop\WeatherMVC\src\view.js133614826054439661 0
 71C:\Users\PC\Desktop\WeatherMVC\node_modules\domutils\lib\feeds.d.ts.map133611037225142424 0
 73C:\Users\PC\Desktop\WeatherMVC\node_modules\escape-string-regexp\index.js133611037221689331 0
 84C:\Users\PC\Desktop\WeatherMVC\node_modules\css-tree\cjs\syntax\config\generator.cjs133611037230149646 0
@@ -26,7 +25,6 @@
 82C:\Users\PC\Desktop\WeatherMVC\node_modules\@parcel\core\test\EntryRequest.test.js133611037231611716 0
 78C:\Users\PC\Desktop\WeatherMVC\node_modules\caniuse-lite\data\features\cors.js133611037233376916 0
 43C:\Users\PC\Desktop\WeatherMVC\node_modules133612923915079908 1
-57C:\Users\PC\Desktop\WeatherMVC\dist\index.bafbf13d.js.map133613037607240807 0
 34C:\Users\PC\Desktop\WeatherMVC\src133612052358105529 1
 87C:\Users\PC\Desktop\WeatherMVC\node_modules\core-js\modules\es.typed-array.to-string.js133611068337498008 0
 75C:\Users\PC\Desktop\WeatherMVC\node_modules\core-js\full\string\trim-end.js133611068362498197 0
@@ -37,7 +35,7 @@
 85C:\Users\PC\Desktop\WeatherMVC\node_modules\core-js\full\string\virtual\trim-start.js133611068362844301 0
 100C:\Users\PC\Desktop\WeatherMVC\node_modules\@babel\highlight\node_modules\color-convert\CHANGELOG.md133611037221837704 0
 92C:\Users\PC\Desktop\WeatherMVC\node_modules\csso\node_modules\css-tree\cjs\walker\create.cjs133611037228372062 0
-35C:\Users\PC\Desktop\WeatherMVC\dist133613037607250814 1
+35C:\Users\PC\Desktop\WeatherMVC\dist133614826054870051 1
 110C:\Users\PC\Desktop\WeatherMVC\node_modules\stream-browserify\node_modules\readable-stream\readable-browser.js133612902235530477 0
 82C:\Users\PC\Desktop\WeatherMVC\node_modules\svgo\plugins\convertEllipseToCircle.js133611037230289525 0
 72C:\Users\PC\Desktop\WeatherMVC\node_modules\public-encrypt\test\1024.pub133612902193361383 0
@@ -10335,3 +10333,5 @@
 54C:\Users\PC\Desktop\WeatherMVC\dist\index.3a01df49.css133613036048020028 0
 58C:\Users\PC\Desktop\WeatherMVC\dist\WeatherMVC.3464ddca.js133611045458958159 0
 62C:\Users\PC\Desktop\WeatherMVC\dist\WeatherMVC.3464ddca.js.map133611045458968161 0
+53C:\Users\PC\Desktop\WeatherMVC\dist\index.bafbf13d.js133614826054840023 0
+57C:\Users\PC\Desktop\WeatherMVC\dist\index.bafbf13d.js.map133614826054870051 0

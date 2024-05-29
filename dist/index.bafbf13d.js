@@ -2520,16 +2520,16 @@ class WeatherView {
         this.#clearInput();
         this.#parentElement.insertAdjacentHTML("afterbegin", markup);
     }
-    getValue() {
+    #getValue() {
         return document.querySelector(".input").value.trim();
     }
     handleTextInput(callback) {
-        document.querySelector(".input").addEventListener("keydown", function(e) {
+        document.querySelector(".input").addEventListener("keydown", (function(e) {
             if (e.key === "Enter") {
-                const value = this.value.trim();
+                const value = this.#getValue();
                 callback(value);
             }
-        });
+        }).bind(this));
     }
     #clearInput() {
         return document.querySelector(".input").value = "";

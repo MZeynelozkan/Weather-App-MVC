@@ -17,12 +17,15 @@ class WeatherView {
   }
 
   handleTextInput(callback) {
-    document.querySelector(".input").addEventListener("keydown", function (e) {
-      if (e.key === "Enter") {
-        const value = getValue();
-        callback(value);
-      }
-    });
+    document.querySelector(".input").addEventListener(
+      "keydown",
+      function (e) {
+        if (e.key === "Enter") {
+          const value = this.#getValue();
+          callback(value);
+        }
+      }.bind(this)
+    );
   }
 
   #clearInput() {
